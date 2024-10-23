@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:outlineAmbientShadowColor="#B84848"
+    android:outlineSpotShadowColor="#3249BF"
+    tools:context=".Fragment_1"
+    tools:ignore="Orientation">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:outlineAmbientShadowColor="#135281"
+        android:text="@string/Fragment_one"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp" />
+    <FrameLayout
+        android:id="@+id/drawing_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+
+
+</LinearLayout>
